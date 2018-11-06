@@ -1,0 +1,51 @@
+* Velocity images from the DOH dataset
+This folder contains links to color images I have made of the [O III] and [N II] velocity data
+
+#+BEGIN_SRC sh :results silent
+ln -s orion-velocity-images.org README.org
+#+END_SRC
+
+** PDF of multiple panels of velocity slices
+#+BEGIN_SRC sh :results silent
+ln -s ~/Work/BobKPNO/2004/multi-panel-isovel-oiii-nii.pdf .
+#+END_SRC
+** Colorized HST images
+#+BEGIN_SRC sh :results silent
+ln -s ~/Work/BobPC/2002/final*-colorized.jpg .
+#+END_SRC
+* The low-velocity structure
+** Inner ring of low sigma
++ This wraps entirely round the Trapezium
+  + sigma as low as 10/2.3 for [O III] (but remember, instrumental and thermal sigma have been removed)
+  + Seen as a green ring in the 3-color map, with the central part being redder
+  + Tempting to interpret as a half-shell, but need to bear in mind that the red bay has been shown to be quite thick along the line of sight
+  + Could still be evidence of wind interaction
+* Mapping the high-velocity flows in Orion
++ This is something we should do
++ Science goals
+  + Plot the origins of the jets
+  + Relation with the dark arcs and dark filaments
++ Data to use
+  + SPM2013 [O III] data for Orion S [[file:~/Dropbox/SPMFEB13/OrionS/DOH-ha-cube.fits]]
+  + Orion Atlas material
+    + Moment maps and velocity channels and longslit spectra
+  + John Meaburn & Robert Massey data from Trapezium region
+    + Massey:1995a
+    + Massey:1993a
+    + They see a lot of the jets, and there are miny faint knots that maybe aren't picked up in the KPNO data
+  + MUSE data
+    + Not good velocity resolution, but good spatial resolution and systematics are different from slits
+    + Some useful maps in [[file:~/Dropbox/orion-widths/data/]]
++ [ ] Plan of action
+  + First thing, make ds9 regions of all the knots that we can find
+  + Similar to what we did for the Alba project :(
++ Some possibly new discoveries
+  + Red-shifted flows in Orion S
+  + These are very weak
+  + Diffuse feature at +120 km/s centered on 147-355
+    + Very near origin point of HH529 corkscrew jet
+    + Could be the counterflow
+  + Jet from HST3
+    + Surely this must have previous studies
+  + Back-extension of HH203/204 jet
+    + In the Orion Atlas sigma maps, this can be traced back all the way to a region that overlaps the HH529 bow

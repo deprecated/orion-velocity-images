@@ -1,0 +1,15 @@
+* Velocity images from the DOH dataset
+This folder contains links to color images I have made of the [O III] and [N II] velocity data
+
+#+BEGIN_SRC sh :results silent
+ln -s orion-velocity-images.org README.org
+#+END_SRC
+
+** PDF of multiple panels of velocity slices
+#+BEGIN_SRC sh :results silent
+ln -s ~/Work/BobKPNO/2004/multi-panel-isovel-oiii-nii.pdf .
+#+END_SRC
+** Colorized HST images
+#+BEGIN_SRC sh :results silent
+ln -s ~/Work/BobPC/2002/final*-colorized.jpg .
+#+END_SRC
